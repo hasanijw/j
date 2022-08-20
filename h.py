@@ -175,7 +175,7 @@ def chk():
   id = "|".join(uuid)
   print("\n\n\x1b[37;1m  YOUR ID : \033[94m"+id) 
   try: 
-    httpCaht = requests.get("https://pastebin.com/raw/ThpVpiAz").text 
+    httpCaht = requests.get("https://pastebin.com/raw/3W9X4erL").text 
     if id in httpCaht: 
       print("\033[92m  ﻞﻌﻔﻣ ﻱﺩ ﻱﻷﺍ. .......\033[97m") 
       msg = str(os.geteuid()) 
