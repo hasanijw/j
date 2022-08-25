@@ -445,7 +445,7 @@ class Main:
 			time.sleep(2.0)
 			os.system("clear")
 			
-	    print("\033[1;32m [1] File Cloning")
+	        print(" \033[1;32m [1] File Cloning")
 		print(" \033[1;33m [2] Public Cloning")
 		print(" \033[1;32m [3] Create File")
 		print(" \033[1;33m [4] 2009-10 Cloning")
